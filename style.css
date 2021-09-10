@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,input,button{
+    font-family: arial , sans-serif;
+
+}
+.menu{
+    margin-top: 5px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', arial, sans-serif;
+    font-size: 13px; 
+}
+.menu-right{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.menu-right a, .menu-right img{
+    margin-right: 15px;
+    text-decoration: none;
+}
+.menu-right a{
+    color: black;
+}
+.menu .burger-menu{
+    padding: 8px;
+    margin-left: 4px;
+}
+.menu-right .avatar{
+    width: 32px;
+    height: 32px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    margin-top: 190px;
+
+}
+
+.content-logo{
+    margin:8px; 
+    height: 92px;
+    width: 272px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.content-search{
+    max-width: 600px;
+    width: 584px;
+    height: 46px;
+    margin-top: 26px;
+    border-radius: 24px;
+    outline: 0;
+    border: 1px solid #dfe1e5;
+    padding: 5px 8px 6px 16px;
+    padding-left: 50px;
+    font-size: 18px;
+    color: rgba(0,0,0,.87);
+    align-items: center;
+}
+
+.lucky-send{
+    display: flex;
+    margin-top: 38px;
+    justify-content: space-between;
+    width: 254px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+.glass{
+    width: 20px;
+    height: 20px;
+    filter: invert(69%) sepia(13%) saturate(150%) hue-rotate(169deg) brightness(90%) contrast(90%);
+    position: relative;
+    left: 35px;
+    top: 40px;
+    
+}
+
